@@ -73,4 +73,4 @@ gextend: gap extend penalty"
 
 On October 18, 2025
 
-Gemini defaulted to not deducting points when gaps collide, but now it still needs to determine whether the gap is open or extended before deducting points.
+Gemini defaulted to not deducting points when gaps collide, but I change it to determine whether the gap is open or extended before deducting points.
