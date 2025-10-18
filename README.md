@@ -56,8 +56,19 @@ The correct answer gets 10 points for each testing data.
 ## References
 Please provide the code along with its reference. For example, you can cite it as: ```# ChatGPT, respond to “your prompt,” on February 16, 2023```. Below is an example of a reference format summarizing the use of ChatGPT for R programming
 
->You are the R Language expert.
->Please help me to write a function called “k_fold”.
->Using a given dataset to train the random forest model, and using the k-fold cross-validation to evaluate the best model parameters. Here is the instruction for the function requirements:\
->Function name: k_fold\
->Function parameters:
+Gemini, respond to my prompt 
+"Give me the python code to calculate the Sum-Of-Pair score of the MSA
+Write a Python program to calculate the multiple sequence alignment's sum-of-pair score (SoP).
+Packages you can use: numpy, pandas
+You write a program with a function named calculate_SoP, ie.
+def calculate_SoP(input_path, score_path, gopen, gextend):
+    .
+    .
+
+Parameters
+input_path: fasta file (ex. test1.fasta)
+score_path: score file (ex. pam250.txt)
+gopen: gap open penalty
+gextend: gap extend penalty"
+On October 18, 2025
+Gemini defaulted to not deducting points when gaps collide, but now it still needs to determine whether the gap is open or extended before deducting points.
